@@ -27,7 +27,7 @@ if test_file is not None:
         )
         
         # Load the selected model pipeline
-        model = joblib.load(f'model/{model_name}.pkl')
+        model = joblib.load(f'model/model_{model_name}.pkl')
         
         # Predictions
         y_pred = model.predict(X_test)
