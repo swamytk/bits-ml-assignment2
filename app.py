@@ -23,7 +23,7 @@ if test_file is not None:
         # b. Model selection dropdown
         model_name = st.selectbox(
             "Select a Machine Learning Model",
-            ("Logistic_Regression", "Decision_Tree", "KNN", "Naive_Bayes", "SVM")
+            ("logistic_regression", "decision_tree", "knn", "naive_bayes", "svm")
         )
         
         # Load the selected model pipeline
