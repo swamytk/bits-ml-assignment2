@@ -1,22 +1,15 @@
-\# ML Assignment 2: Classification Deployment
+# ML Assignment 2: Classification Deployment
 
-
-
-\*\*a. Problem statement\*\*
+**a. Problem statement**
 
 To build, evaluate, and deploy multiple machine learning classification models to accurately predict Alzheimer's disease diagnosis based on patient lifestyle, demographic, and medical data, and to present these models via an interactive web application.
 
+**b. Dataset description**
 
+- **Name:** Alzheimer's Disease Dataset
 
-\*\*b. Dataset description\*\*
+- **Features:** 32 predictive features including physical (BMI, Blood Pressure), lifestyle (Diet, Sleep, Alcohol), and cognitive assessments (MMSE, ADL), after removing identifying columns.
 
-\- \*\*Name:\*\* Alzheimer's Disease Dataset
+- **Instances:** 2,149 instances (Exceeds the 500 minimum requirement).
 
-\- \*\*Features:\*\* 32 predictive features including physical (BMI, Blood Pressure), lifestyle (Diet, Sleep, Alcohol), and cognitive assessments (MMSE, ADL), after removing identifying columns.
-
-\- \*\*Instances:\*\* 2,149 instances (Exceeds the 500 minimum requirement).
-
-\- \*\*Target:\*\* Binary classification (Diagnosis: 0 for Negative, 1 for Positive).
-
-
-
+- **Target:** Binary classification (Diagnosis: 0 for Negative, 1 for Positive).
