@@ -36,4 +36,4 @@ https://github.com/swamytk/bits-ml-assignment2/
 | KNN | Poorly performed across all models. Struggled with the high dimensionality (32 features) of the dataset, yielding the lowest predictive performance across all metrics. |
 | Naive Bayes | Performed well (AUC 0.8999), performance is close to base Logistic regression. |
 | Support Vector Machine | Matched Naive Bayes in accuracy (83.26%) but required significant computational overhead. |
-| **Overall, Winner for your dataset?** | **Decision Tree Classifier**, yielding the highest Accuracy (90.7%), F1 Score (0.8658), and MCC (0.7953). |
+| **Best model for the dataset given?** | **Decision Tree Classifier**, yielding the highest Accuracy (90.7%), F1 Score (0.8658), and MCC (0.7953). |
